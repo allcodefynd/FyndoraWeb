@@ -1,0 +1,185 @@
+/* Wordpress development */
+/* bannner */
+#head_main {
+    color: #162249;
+    position: absolute;
+    top: -470px;
+    font-weight: 700;
+    left: 120px;
+    width: 500px;
+    text-align: left;
+}
+#head_para {
+    color: #162249;
+    position: absolute;
+    top: -320px;
+    font-size: 17px;
+    left: 120px;
+    width: 450px;
+    font-weight: 500;
+}
+.head_wrapper{
+    position: absolute;
+}
+.allBtnwrapper {
+    background-image: linear-gradient(207deg,#f9707a, #a605f7);
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    position: absolute;
+    top: -110px;
+    font-size: 17px;
+    left: 120px;
+    width: 200px;
+    padding: 10px;    
+    border-radius: 5px;
+}
+/* End of Banner */
+/* Card */
+.card_file {
+    box-shadow: 0 0 6px #ccc;
+    border-radius: 15px;
+    padding: 16px;
+    text-align: justify;
+    margin: 10px;
+    margin-top: 40px;
+    background-image: url(/public/Assets/services/back_2.png);
+}
+.card_file h4 {
+    margin-top: 12px;
+    font-family: sans-serif;
+}
+.card_file {
+    box-shadow: 0 0 6px #ccc;
+    border-radius: 15px;
+    padding: 16px;
+    text-align: justify;
+    margin: 10px;
+    background-position: -30px -20px;
+    background-size: 490px;
+    margin-top: 40px;
+    background-image: url(http://localhost:3000/static/media/back_2.40a26e3b054fb8111aad.png);
+}
+/* .card_file span {
+    height: 1px;
+    background: #db03ac;
+    position: relative;
+    display: block;
+    width: 170px;
+    border-radius: 455px;
+} */
+.card_file p{
+    color: rgb(116, 116, 116);
+}
+.bx_wrapper img {
+    width: 100px;
+    /* margin: auto; */
+    /* text-align: center; */
+}
+span.card_icon {
+    padding: 20px;
+}
+span.card_icon {
+    padding: 30px;
+    background-image: url(/public/Assets/services/1.svg);
+    background-size: 330px;
+    background-position: 0 -30px;
+    width: 20px;
+}
+.bxuirt {
+    display: flex;
+}
+.bxuirt .col:nth-child(2) .card_file .card_icon {
+    background-position: 0px -100px !important;
+}
+.bxuirt .col:nth-child(3) .card_file .card_icon {
+    background-position: 0px -179px !important;
+}
+.bxuirt .col:nth-child(4) .card_file .card_icon {
+    background-position: 130px -32px !important
+}
+.bxuirt2{
+    display: flex;
+}
+.bxuirt2 .col:first-child .card_file .card_icon {
+    background-position: -70px 480px !important
+}
+.bxuirt2 .col:nth-child(2) .card_file .card_icon {
+    background-position: 132px -100px !important;
+}
+.bxuirt2 .col:nth-child(3) .card_file .card_icon {
+    background-position: 202px -100px !important;
+}
+.bxuirt2 .col:nth-child(4) .card_file .card_icon {
+    background-position: 262px -100px !important;
+}
+/* End of Card */
+
+/* Content three */
+.content_three.container-fluid {    
+    margin-top: 40px;
+    background-image: 
+              linear-gradient(45deg, rgba(219, 3, 172,0.5), rgba(166, 5, 247, 0.5)
+              ), url(
+'../../../public/Assets/services/bg_trans.png');
+background-repeat: no-repeat;
+    background-size: 100%;
+}
+.content_three img {
+    width: 470px;    
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+}
+.content_three .col:nth-child(1){
+    text-align: center;
+}
+
+.tex_word_wp{
+margin: 100px;
+color: #fff;
+background: #0000006b;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 0 6px #ccc;
+}
+.content_four{
+    margin-top: 40px;
+    background-image: url(
+'../../../public/Assets/services/middleImage.jpg');
+background-repeat: no-repeat;
+    background-size: 100%;
+}
+.tex_word_wp_Four{
+    margin: 100px;
+color: #fff;
+background: #0000006b;
+padding: 20px;
+border-radius: 35px;
+box-shadow: 0 0 6px #ccc;
+text-align: center;
+}
+.quotesbx{
+    font-size: 39px;
+}
+.bx_wrapper{
+    margin: 40px;
+    position: relative;
+    text-align: center;
+}
+.bx_wrapper div {
+    padding-left: 45px;
+}
+.bx_wrapper i {
+    position: absolute;
+    top: 10px;
+    left: 19px;
+    font-size: 24px;
+}
+.bx_wrapper h2 {
+    font-size: 40px;
+}
+.bx_wrapper p{
+    color: rgb(138, 137, 137);
+}
+/* End Content three */

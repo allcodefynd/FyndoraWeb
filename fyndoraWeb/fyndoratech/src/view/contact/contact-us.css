@@ -1,0 +1,22 @@
+.contact_Wra img{
+    width: 30%;
+}
+.contact_ic_wr{
+    padding: 30px;
+    margin: 30px;
+    margin: auto;
+    text-align: center;
+}
+.contact_Wra ul li {
+    list-style: none;
+    color: #626262;
+}
+.contact_Wra ul{
+    margin: 30px;
+}
+.contact_Wra {
+    padding: 30px;
+}
+.about_center{
+    text-align: center;
+}
