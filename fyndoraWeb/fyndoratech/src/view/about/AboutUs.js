@@ -20,7 +20,7 @@ function AboutUs(){
             <Container>
                 <Row>
                     <div className="about-us_first">
-                        <h2>Overview</h2>
+                        <h2>-Overview-</h2>
                         <p>Wipro Limited (NYSE: WIT, BSE: 507685, NSE: WIPRO) is a leading global information technology, consulting and business process services company. We harness the power of cognitive computing, hyper-automation, robotics, cloud, analytics and emerging technologies to help our clients adapt to the digital world and make them successful. A company recognized globally for its comprehensive portfolio of services, strong commitment to sustainability and good corporate citizenship, we have over 220,000 dedicated employees serving clients across six continents. Together, we discover ideas and connect the dots to build a better and a bold new future.</p>
                     </div>
                 </Row>

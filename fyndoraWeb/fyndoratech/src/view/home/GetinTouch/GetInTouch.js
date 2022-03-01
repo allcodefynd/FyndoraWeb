@@ -1,7 +1,23 @@
-import React from "react";
-import { Row, Col, Container } from 'react-bootstrap'
+import React, { useState } from "react";
+import { Row, Col, Container } from 'react-bootstrap';
+import { v4 as uuid } from "uuid";
+import FireBase from "../../../../Firebase";
 
 function GetInTouch() {
+    const [fname, setFname] = useState("");
+    const [lname, setLname] = useState("");
+    const [number, setNumber] = useState("");
+    const [email, setEmail] = useState("");
+    const [message, setMessage] = useState("");
+    const [success, setSuccess] = useState("");
+
+
+    const handleSubmit = (e) =>{
+        e.preventDefault();
+        console.log("hiiis")
+        console.log(fname,lname,number,email,message)
+    }
+
     return (
         <>
             <Container fluid className="getinwrapper">
@@ -31,13 +47,13 @@ function GetInTouch() {
                             </Col>
                             <Col>
                                 <div className="formWrapper">
-                                    <form action="/action_page.php">
-                                        <input type="text" id="fname" name="fname" value="" placeholder="First Name" /><br></br>
-                                        <input type="text" id="lname" name="lname" value="" placeholder="Last Name" /><br></br>
-                                        <input type="text" id="lname" name="lname" value="" placeholder="Phone Number" /><br></br>
-                                        <input type="text" id="lname" name="lname" value="" placeholder="Email" /><br></br>
-                                        <input type="text" id="lname" name="lname" value="" placeholder="Message" /><br></br>
-                                        <button className="formSubmit">Submit</button>
+                                    <form onSubmit={handleSubmit}>
+                                        <input type="text" id="fname" name="fname" value={fname} placeholder="First Name" onChange={(e)=>setFname(e.target.value)}/><br></br>
+                                        <input type="text" id="lname" name="lname" value={lname} placeholder="Last Name" onChange={(e)=>setLname(e.target.value)}/><br></br>
+                                        <input type="text" id="lname" name="lname" value={number} placeholder="Phone Number" onChange={(e)=>setNumber(e.target.value)}/><br></br>
+                                        <input type="text" id="lname" name="lname" value={email} placeholder="Email" onChange={(e)=>setEmail(e.target.value)} /><br></br>
+                                        <textarea type="text" id="lname" name="lname" value={message} placeholder="Message" rows="4" cols="50" onChange={(e)=>setMessage(e.target.value)}/><br></br>
+                                        <button type="submit" className="formSubmit">Submit</button>
                                     </form>
                                 </div>
                             </Col>
