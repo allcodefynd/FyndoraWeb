@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { Row, Col, Container } from 'react-bootstrap';
 import { v4 as uuid } from "uuid";
-import FireBase from "../../../../Firebase";
+import firebase from "../../../Firebase"
+
 
 function GetInTouch() {
     const [fname, setFname] = useState("");
@@ -11,13 +12,22 @@ function GetInTouch() {
     const [message, setMessage] = useState("");
     const [success, setSuccess] = useState("");
 
+    const contactForm = firebase.database().ref('contactMessages');
 
     const handleSubmit = (e) =>{
         e.preventDefault();
-        console.log("hiiis")
-        console.log(fname,lname,number,email,message)
+        saveMessages(fname, lname, number, email, message);
     }
-
+const saveMessages = (fname, lname, number, email, message) => {
+    var newContactFormRef = contactForm.push();
+    newContactFormRef.set({
+        fname:fname,
+        lname:lname,
+        number:number,
+        email:email,
+        message:message
+    });
+}
     return (
         <>
             <Container fluid className="getinwrapper">
