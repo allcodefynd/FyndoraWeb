@@ -2,31 +2,47 @@ import React, { useState } from "react";
 import { Row, Col, Container } from 'react-bootstrap';
 import { v4 as uuid } from "uuid";
 import firebase from "../../../Firebase"
-
-
+import validator from 'validator';
+import swal from 'sweetalert';
+import './getintouch.css';
 function GetInTouch() {
     const [fname, setFname] = useState("");
     const [lname, setLname] = useState("");
     const [number, setNumber] = useState("");
     const [email, setEmail] = useState("");
     const [message, setMessage] = useState("");
-    const [success, setSuccess] = useState("");
+    const [mobErr, setMobError] = useState("");
+    const [emailErr, setEmailError] = useState("");
 
     const contactForm = firebase.database().ref('contactMessages');
 
-    const handleSubmit = (e) =>{
+
+    const handleSubmit = (e) => {
         e.preventDefault();
         saveMessages(fname, lname, number, email, message);
     }
-const saveMessages = (fname, lname, number, email, message) => {
-    var newContactFormRef = contactForm.push();
-    newContactFormRef.set({
-        fname:fname,
-        lname:lname,
-        number:number,
-        email:email,
-        message:message
-    });
+    const saveMessages = (fname, lname, number, email, message) => {
+        var newContactFormRef = contactForm.push();
+        newContactFormRef.set({
+            fname: fname,
+            lname: lname,
+            number: number,
+            email: email,
+            message: message
+        });
+        swal({
+        title: "Your Information sent SuccessFully",
+        text: "we will touch with you",
+        icon: "success",
+        dangerMode: false,});
+        EmptyField();
+    }
+function EmptyField(){
+        setFname("")
+        setLname("")
+        setNumber("")
+        setEmail("")
+        setMessage("")
 }
     return (
         <>
@@ -43,32 +59,32 @@ const saveMessages = (fname, lname, number, email, message) => {
                 </Container>
             </Container>
             <Container fluid className="getintouch_list_bx">
-                    <Container>
-                        <Row>
-                            <Col className="getIntouch_list">
-                                <p>NextPage IT Solutions, imperatively focus on development, optimization, and promotion of web-based products and applications. We thrive on delivering intuitive business solutions to our clients in order to get the best of breed competitive edge in the industry globally.s</p>
-                                <ul>
-                                    <li>On call enquiry assistance</li>
-                                    <li>Project consulting by experts</li>
-                                    <li>Detailed project estimations</li>
-                                    <li>Detailed project estimations</li>
-                                    <li>Detailed project estimations</li>
-                                </ul>
-                            </Col>
-                            <Col>
-                                <div className="formWrapper">
-                                    <form onSubmit={handleSubmit}>
-                                        <input type="text" id="fname" name="fname" value={fname} placeholder="First Name" onChange={(e)=>setFname(e.target.value)}/><br></br>
-                                        <input type="text" id="lname" name="lname" value={lname} placeholder="Last Name" onChange={(e)=>setLname(e.target.value)}/><br></br>
-                                        <input type="text" id="lname" name="lname" value={number} placeholder="Phone Number" onChange={(e)=>setNumber(e.target.value)}/><br></br>
-                                        <input type="text" id="lname" name="lname" value={email} placeholder="Email" onChange={(e)=>setEmail(e.target.value)} /><br></br>
-                                        <textarea type="text" id="lname" name="lname" value={message} placeholder="Message" rows="4" cols="50" onChange={(e)=>setMessage(e.target.value)}/><br></br>
-                                        <button type="submit" className="formSubmit">Submit</button>
-                                    </form>
-                                </div>
-                            </Col>
-                        </Row>
-                    </Container>
+                <Container>
+                    <Row>
+                        <Col className="getIntouch_list">
+                            <p>NextPage IT Solutions, imperatively focus on development, optimization, and promotion of web-based products and applications. We thrive on delivering intuitive business solutions to our clients in order to get the best of breed competitive edge in the industry globally.s</p>
+                            <ul>
+                                <li>On call enquiry assistance</li>
+                                <li>Project consulting by experts</li>
+                                <li>Detailed project estimations</li>
+                                <li>Detailed project estimations</li>
+                                <li>Detailed project estimations</li>
+                            </ul>
+                        </Col>
+                        <Col>
+                            <div className="formWrapper">
+                                <form onSubmit={handleSubmit}>
+                                    <input type="text" id="fname" name="fname" value={fname} placeholder="First Name" onChange={(e) => setFname(e.target.value)} required/><br></br>
+                                    <input type="text" id="lname" name="lname" value={lname} placeholder="Last Name" onChange={(e) => setLname(e.target.value)} required/><br></br>
+                                    <input type="phone" id="lname" name="lname" value={number}  maxlength="10"  onkeyup='this.value=this.value.replace(/[^\d]/,"")' placeholder="Phone Number" onChange={(e) => setNumber(e.target.value)} required/><br></br>
+                                    <input type="email" id="lname" name="lname" value={email} placeholder="Email" onChange={(e) => setEmail(e.target.value)} required/><br></br>
+                                    <textarea type="text" id="lname" name="lname" value={message} placeholder="Message" onChange={(e) => setMessage(e.target.value)} /><br></br>
+                                    <button type="submit" className="formSubmit">Submit</button>
+                                </form>
+                            </div>
+                        </Col>
+                    </Row>
+                </Container>
             </Container>
         </>
     )
