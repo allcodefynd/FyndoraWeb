@@ -25,6 +25,7 @@ import Portfolio from "../portfolio";
 import Page from "../portfolio/pages";
 import TermsCondition from "../termsAndCond/TermsCondition";
 import Career from "../career/Career";
+import Login from "../admin/Login";
 
 function Router(){
   return(
@@ -54,6 +55,7 @@ function Router(){
         <Route path="pages/:id/:slug" element={ <Page/> } />
         <Route path="career" element={ <Career/> } />
         <Route path="terms-and-Condition" element={ <TermsCondition/> } />
+        <Route path="admin" element={ <Login/> } />
       </Routes>
     </>
   )
