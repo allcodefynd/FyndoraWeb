@@ -9,7 +9,7 @@ function BannerSecond() {
     return (
         <>
             <Container>
-                <Row className="bannerSecond_bx">
+                <Row className="bnnerSecond_bx">
                     <Col>
                         <img src={process.env.PUBLIC_URL + "/Assets/computerDesign.svg"} alt="logo" />
                     </Col>
