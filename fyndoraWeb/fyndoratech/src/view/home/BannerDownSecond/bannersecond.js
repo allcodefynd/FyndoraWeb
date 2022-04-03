@@ -20,12 +20,12 @@ function BannerSecond() {
                     </Col>
                 </Row>
                 <Row className="bannerSecond_bx">
-                    <Col style={{ margin: "auto" }}>
+                    <Col className="order1" style={{ margin: "auto" }}>
                         <h2 style={{ textAlign: "center" }}>Recruitment</h2>
                         <span className="content_bar"></span>
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                     </Col>
-                    <Col>
+                    <Col className="order2">
                         <img src={process.env.PUBLIC_URL + "/Assets/requirtment.svg"} alt="logo" />
                     </Col>
                 </Row>

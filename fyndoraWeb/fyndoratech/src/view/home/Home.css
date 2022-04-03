@@ -70,6 +70,9 @@ a.linkWrapper {
     padding: 3px;
     color: #2e2e2e;
 }
+.navbar{
+    z-index: 9;
+}
 .HeaderBar{
 }
 .linkWrapper_anc{
@@ -101,33 +104,37 @@ h1 {
   
   #changingword {
     color: #162249;
-    position: absolute;
-    top: -650px;
+    /* position: absolute; */
+    /* top: -650px; */
     font-weight: 700;
-    left: 120px;
+    /* left: 120px; */
     width: 500px;
     text-align: left;
+    font-size: 50px;
 }
 #changingpara {
     color: #162249;
-    position: absolute;
-    top: -500px;
+    /* position: absolute;
+    top: -500px; */
     font-size: 17px;
     left: 120px;
     width: 450px;
 }
-.wrapperWord{
+.wrapperWord {
     position: absolute;
+    left: 140px;
+    top: 130px;
+    width: 560px;
 }
 .Btnwrapper {
     background-image: linear-gradient(207deg,#f9707a, #a605f7);
     border: none;
     color: #fff;
     font-weight: 600;
-    position: absolute;
-    top: -290px;
+    /* position: absolute; */
+    /* top: -290px; */
     font-size: 17px;
-    left: 120px;
+    /* left: 120px; */
     width: 200px;
     padding: 10px;
     border-radius: 35px;
@@ -298,3 +305,78 @@ h1 {
     font-size: 16px;
 }
 /* End Footer */
+
+/* RESPONSIVE HOME */
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+.wrapperWord {
+    left: 0px;
+    top: 10px;
+    width: 320px;
+    text-align: center;
+}
+.infoWrapper ul {
+    text-align: center;
+    margin: 0;
+    padding: 0px;
+    margin: auto;
+}
+.infoWrapper ul li{
+    text-align: center;
+    margin: auto;
+}
+.navbar{
+    z-index: inherit;
+}
+.App-logo {
+    width: 100px;
+}
+.App-banner {
+    margin-top: -10px;
+}
+#changingword {
+    font-size: 20px;
+}
+#changingpara {
+    background-color: rgb(255 255 255 / 86%);
+    color: #162249;
+    font-size: 17px;
+    left: 120px;
+    display: inline;
+    width: 450px;
+    font-size: 9px;
+    display: inherit;
+    margin: auto;
+    /* line-height: 1; */
+    padding: 0px;
+    width: 230px;
+}
+.Btnwrapper {
+    background-image: linear-gradient(207deg,#f9707a, #a605f7);
+    border: none;
+    color: #fff;
+    /* font-weight: 600; */
+    /* position: absolute; */
+    /* top: -290px; */
+    font-size: 13px;
+    /* left: 120px; */
+    width: 120px;
+    padding: -19px;
+    padding: 4px;
+    border-radius: 35px;
+}
+.col {
+    flex: inherit;
+    width: 100%;
+}
+.bnnerSecond_bx.row {
+    margin-top: 40px;
+}
+.order2{
+    order: 1 !important;
+}
+.order1{
+    order: 2 !important;
+}
+}
+/* RESPONSIVE HOME */
