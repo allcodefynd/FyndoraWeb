@@ -5,12 +5,22 @@ import WorkProcess from "../WorkProcess/WorkProcess";
 
 function Technology(){
     const optionstech = {
-        items: 15,
         loop:true,
         autoplay:true,
         margin:10,
         navText:false,
         dots:false,
+        responsive:{
+            0:{
+                items:6
+            },
+            600:{
+                items:8
+            },
+            1000:{
+                items:15
+            }
+        }
     };
     return(
         <>

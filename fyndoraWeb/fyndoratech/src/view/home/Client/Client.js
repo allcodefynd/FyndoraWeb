@@ -4,7 +4,17 @@ import OwlCarousel from 'react-owl-carousel';
 
 function Client () {
     const options = {
-        items: 5,
+        responsive:{
+            0:{
+                items:3
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
+        }
     };
     return(
         <>
@@ -12,7 +22,7 @@ function Client () {
                <Row>
                   <h2 style={{ textAlign: "center",marginTop:"60px" }}>Clientele</h2>
                     <span className="content_bar"></span>
-                    <OwlCarousel className='owl-theme clientCrousel' {...options} loop margin={10} nav>
+                    <OwlCarousel className='owl-theme clientCrousel' {...options} loop nav>
                         <div class='item'>
                             <img src={process.env.PUBLIC_URL + "/Assets/client1.png"} alt="logo" />
                         </div>

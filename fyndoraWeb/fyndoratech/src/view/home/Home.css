@@ -308,11 +308,12 @@ h1 {
 
 /* RESPONSIVE HOME */
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
 .wrapperWord {
     left: 0px;
     top: 10px;
-    width: 320px;
+    right: 0px;    
+    width: 100%;
     text-align: center;
 }
 .infoWrapper ul {
@@ -368,6 +369,7 @@ h1 {
 .col {
     flex: inherit;
     width: 100%;
+    text-align: center;
 }
 .bnnerSecond_bx.row {
     margin-top: 40px;
@@ -377,6 +379,48 @@ h1 {
 }
 .order1{
     order: 2 !important;
+}
+.mobile_wrapper h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+.getIntouch_list{
+    order: 2;
+}
+.formWrapper {
+    width: 320px;
+    padding: 15px 35px;
+    display: inline-block;
+    background: #fff;
+    box-shadow: 0 0 6px rgb(99, 94, 94);
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+.getintouch_list_bx {
+    margin: 0;
+    padding: 0px;
+}
+.getIntouch_list p {
+    font-size: 10px;
+}
+.getIntouch_list ul li {
+    font-size: 12px;
+    font-family: 'poppins', sans-serif;
+}
+.footerWrapper {
+ padding: 5px;
+}
+.getIntouch_list.col ul li {
+    text-align: left;
+}
+.dropdown-menu {
+    min-width: 17rem;
+}
+a.linkWrapper {
+    width: 100%;
+    display: inline-block;
 }
 }
 /* RESPONSIVE HOME */
