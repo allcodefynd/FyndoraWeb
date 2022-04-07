@@ -31,8 +31,8 @@ function GetInTouch() {
             message: message
         });
         swal({
-        title: "Your Information sent SuccessFully",
-        text: "we will touch with you",
+        title: "Your messsage sent",
+        text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
         icon: "success",
         dangerMode: false,});
         EmptyField();
