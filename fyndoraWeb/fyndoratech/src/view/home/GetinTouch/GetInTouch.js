@@ -52,7 +52,7 @@ function EmptyField(){
                         <Col>
                             <div className="getInContent">
                                 <h2>Get In Touch</h2>
-                                <p>Please fill out the form to get in touch with our client-support <br></br> team, we will get back to you in 24 hours.</p>
+                                <p>Submit your details, and our client-support team will reach out to you within 24 hours</p>
                             </div>
                         </Col>
                     </Row>

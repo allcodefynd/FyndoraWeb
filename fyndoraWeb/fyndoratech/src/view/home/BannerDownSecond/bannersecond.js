@@ -13,19 +13,19 @@ function BannerSecond() {
                 <Row className="bnnerSecond_bx">
                     {/* <Col>
                         <img src={process.env.PUBLIC_URL + "/Assets/computerDesign.svg"} alt="logo" />
-                    </Col>
-                    <Col>
-                        <h2 style={{ textAlign: "center" }}>InDIAn Technology</h2>
+                    </Col>*/}
+                    <Col style={{boxShadow: "rgba(17, 12, 46, 0.15) 0px 48px 100px 0px",marginTop:"30px"}}>
+                        <h2 style={{ textAlign: "center",marginTop:"30px" }}>Who Are We?</h2>
                         <span className="content_bar"></span>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                    </Col> */}
+                        <p style={{textAlign:"center"}}>Investment in innovation is the need of the hour in this increasingly digitised world. Our strategists and<br></br> innovation experts help drive each project, allowing businesses to grow. By leveraging our expertise in IT,<br></br> firms can reinvent their businesses to create exceptional, sustainable value from their investments</p>
+                    </Col> 
                 </Row>
                 <Row className="bannerSecond_bx">
                     <Col className="order1" style={{ margin: "auto" }}>
                         <h2 style={{ textAlign: "center" }}>Recruitment</h2>
                         <span className="content_bar"></span>
                         <p>Quickly build an in-house team of experts by delegating recruitment activities. From subordinate to the top post, we find you the ideal professional to bolster your workforce. Our competitive recruitment assessments are designed to help you create the perfect team. With our extensive national and international networks, our workforce solutions are designed to assist you in identifying the top talent across industries and locations. From staffing to retention, we provide acomprehensive list of services in the field to guide you through the entire journey.
-</p>
+                        </p>
                     </Col>
                     <Col className="order2">
                         <img src={process.env.PUBLIC_URL + "/Assets/requirtment.svg"} alt="logo" />
@@ -41,14 +41,14 @@ function BannerSecond() {
                         <p>Development services that will re-build your digital presence. Our industry insights and cross-sector expertise provide you with a range of development services designed to create a professional image. From smart customization to full-cycle development, our team of front-end developers, back-end developers, engineers, mobile app developers, and analysts helps create a dynamic user experience.</p>
                     </Col>
                 </Row>
-                </Container>
-                <GetPartner/>
-                <Container>
+            </Container>
+            <GetPartner />
+            <Container>
                 <Row >
-                    <h2 style={{ textAlign: "center" }}>Igniting Brands via Effective Development Solutions</h2>
+                    <h2 style={{ textAlign: "center",marginTop:"20px" }}>Igniting Brands via Effective Development Solutions</h2>
                     <span className="content_bar"></span>
                     <p style={{ textAlign: "center" }}>We offer an extensive range of services from Magento development, Laravel development, Shopify development, Php development, WordPress development, React native development, Flutter development, Android/iOS development and UI/UX. From web development to e-commerce store development, our services are designed to help you excel.</p>
-                    <Row  style={{margin:"auto"}}>
+                    <Row style={{ margin: "auto" }}>
                         <Col>
                             <div className="wrapper_bx"><img src={process.env.PUBLIC_URL + "/Assets/ic_1.png"} alt="logo" />
                                 <h3>Web Development</h3>
@@ -91,7 +91,7 @@ function BannerSecond() {
                     </Row>
                 </Container>
             </Container>
-            <Technology/>
+            <Technology />
 
         </>
     )

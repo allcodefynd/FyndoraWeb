@@ -10,13 +10,13 @@ function Testimonial() {
         dots: false,
         responsive: {
             0: {
-                items: 6
+                items: 1
             },
             600: {
-                items: 8
+                items: 1
             },
             1000: {
-                items: 2
+                items: 1
             }
         }
     };
@@ -35,14 +35,14 @@ function Testimonial() {
                             <div class='item'>
                                 <div style={{margin:"20px",padding:"20px",boxShadow:"0 0 6px #000",borderRadius:"25px"}}>
                                     <div className="icon-bar"><img src={process.env.PUBLIC_URL + "/Assets/icon/quotes.png"} /></div>
-                                    <p>We get your organization where it needs to be through in-depth indusrty knowledge, technical expertise.</p>
+                                    <p>Fyndora’s expertise in web development, budget-friendly plans, and quick turnaround time make them a popular choice. Their team of professionals built my website from scratch. The best thing about them was that they customised the website according to our needs and are receptive to feedback. Their transparency regarding the budget and their excellent after-completion support make them stand out. My user-friendly website ranks high on aesthetics and performance, which has helped me scale my online business to new heights.</p>
                                     <span><b>-Akash</b></span>
                                 </div>
                             </div>
                             <div class='item'>
                                 <div style={{margin:"20px",padding:"20px",boxShadow:"0 0 6px #000",borderRadius:"25px"}}>
                                     <div className="icon-bar"><img src={process.env.PUBLIC_URL + "/Assets/icon/quotes.png"} /></div>
-                                    <p>We get your organization where it needs to be through in-depth indusrty knowledge, technical expertise.</p>
+                                    <p>Fyndora’s recruitment services have a strict and thorough evaluation process that ensures they screen the best talent out of millions. From the shortlisting to training, they managed everything smoothly within the stipulated budget. Their commitment to deadlines and their drive to hire only the top talent make them ideal for outsourcing recruitment. It saved my organisation time and helped us identify candidates that match our company's vision. I recommend them for their competitive budgets and training process that downscales information in a digestible manner.</p>
                                     <span><b>-Ayush</b></span>
                                 </div>
                             </div>

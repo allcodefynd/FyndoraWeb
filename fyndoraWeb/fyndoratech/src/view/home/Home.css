@@ -185,6 +185,7 @@ h1 {
     border-radius: 15px;
     margin-bottom: 20px;
     text-align: center;
+    min-height: 364px !important;
 }
 .wrapper_bx h3{
     font-size: 22px;

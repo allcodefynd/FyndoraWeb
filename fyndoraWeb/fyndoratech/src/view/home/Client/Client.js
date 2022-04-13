@@ -22,6 +22,7 @@ function Client () {
                <Row>
                   <h2 style={{ textAlign: "center",marginTop:"60px" }}>Clientele</h2>
                     <span className="content_bar"></span>
+                    <div><p style={{textAlign:"center",width:"50%",display:"block",margin:"auto"}}>During our impactful tenure at the company, we have worked with some of the most esteemed and globally recognized companies like Barakat, Pay@, Thankwith, TCS, and Wipro.</p></div>
                     <OwlCarousel className='owl-theme clientCrousel' {...options} loop nav>
                         <div class='item'>
                             <img src={process.env.PUBLIC_URL + "/Assets/client1.png"} alt="logo" />
