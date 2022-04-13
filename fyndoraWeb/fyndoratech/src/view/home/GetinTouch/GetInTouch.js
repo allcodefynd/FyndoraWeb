@@ -46,13 +46,13 @@ function EmptyField(){
 }
     return (
         <>
-            <Container fluid className="getinwrapper">
+            <Container fluid className="">
                 <Container>
                     <Row>
                         <Col>
                             <div className="getInContent">
-                                <h2>Get In Touch</h2>
-                                <p>Submit your details, and our client-support team will reach out to you within 24 hours</p>
+                                <h2></h2>
+                                
                             </div>
                         </Col>
                     </Row>
@@ -62,14 +62,8 @@ function EmptyField(){
                 <Container>
                     <Row>
                         <Col className="getIntouch_list">
-                            <p>NextPage IT Solutions, imperatively focus on development, optimization, and promotion of web-based products and applications. We thrive on delivering intuitive business solutions to our clients in order to get the best of breed competitive edge in the industry globally.s</p>
-                            <ul>
-                                <li>On call enquiry assistance</li>
-                                <li>Project consulting by experts</li>
-                                <li>Detailed project estimations</li>
-                                <li>Detailed project estimations</li>
-                                <li>Detailed project estimations</li>
-                            </ul>
+                                <h2>Get In Touch</h2>                           
+                                <h4>Submit your details, and our client-support team will reach out to you within 24 hours</h4>
                         </Col>
                         <Col>
                             <div className="formWrapper">
