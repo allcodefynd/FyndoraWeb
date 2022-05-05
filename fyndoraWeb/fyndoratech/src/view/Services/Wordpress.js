@@ -49,7 +49,7 @@ function Wordpress() {
                         <div className="card_file">
                             <Row>
                                     <span className="card_icon"></span>
-                                    <Col><h4>Clean and functional websites</h4>
+                                    <Col><h4>Clean functional </h4>
                                         <span></span>
                                     </Col>
                             </Row>
@@ -181,9 +181,18 @@ function Wordpress() {
                 <Row>
                     <Col>
                         <div className="tex_word_wp_Four">
-                            <h2>What people think.</h2>
-                            <i class="fa fa-quote-right quotesbx" aria-hidden="true"></i>
-                            <p>Ambab follows a product approach to build websites and web apps. A major reason for this is everything we do is measurable, and we have a proper deadline that guarantees quality and fractions in every minute detail in the planning phase.  A major reason for this is everything we do is measurable, and we have a proper deadline that guarantees quality and fractions in every minute detail in the planning phase. A major reason for this is everything we do is measurable, and we have a proper deadline that guarantees quality and fractions in every minute detail in the planning phase.</p>
+                          <div style={{display:"flex"}}>
+                            <div style={{width:"48%",marginRight:"20px"}}>
+                                <h2>Consultation</h2>
+                                <i class="fa fa-quote-right quotesbx" aria-hidden="true"></i>
+                                <p>Along with our IT services, Fyndora provides the best possible IT solutions and consultations for all your WordPress-related problems. We give you the best advice to achieve your targeted goals.</p>
+                            </div>
+                            <div style={{width:"48%"}}>
+                                <h2>Maintenance and Upgradation</h2>
+                                <i class="fa fa-quote-right quotesbx" aria-hidden="true"></i>
+                                <p>At Fyndora, we provide our clients with reliable assistance in maintaining and upgrading their WordPress websites. We help our clients to maintain and upgrade their WordPress websites in a hassle-free way</p>
+                            </div>
+                          </div>
                         </div>
                     </Col>
                 </Row>

@@ -16,7 +16,7 @@ function Laravel() {
                     <div style={{ position: "relative" }}>
                         <div className="head_wrapper">
                             <h1><span id="head_main">LARAVEL DEVELOPMENT</span></h1>
-                            <p><span id="head_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</span></p>
+                            <p><span id="head_para">Whether you are thinking of creating a web application, a simple one-page website, or an entire full-fledged social network for your business, Laravel is a good choice. Laravel has been a popular choice among web developers for over ten years and remains one of the most popular server-side frameworks on PHP. </span></p>
                             <button className="allBtnwrapper">GET IN TOUCH</button>
                         </div>
                     </div>
@@ -25,45 +25,45 @@ function Laravel() {
             <Container>
                 <Row>
                     <div style={{ textAlign: "center", marginTop: "40px", marginBottom: "40px" }}>
-                        <h3>WordPress Development</h3>
+                        <h3>LARAVEL DEVELOPMENT</h3>
                         <span class="content_bar"></span>
-                        <p>We undertake services that cater to commercial purpose to personal requirements. Our WordPress development team fulfills the needs of our customers with reflective and efficient website designs. In today's modern time, WordPress is a boosting factor in the digital world. Emstell is one of the leading WordPress development companies that strive to offer websites that are compatible with serving various needs of the business. Professionals from Emstell are dedicated to offering services of WordPress development and designing services.</p>
+                        <p>It is a back-end PHP-based and open-source framework used for building a variety of custom web applications. Laravel is an entirely server-side framework, managing data with the help of Model-View-Controller (MVC) design, breaking a back-end architecture into logical parts of an application.</p>
                     </div>
                 </Row>
             </Container>
             <Container>
-                <h3 style={{ textAlign: "center" }}>WHY CHOOSE AMBAB FOR MAGENTO DEVELOPMENT</h3>
+                <h3 style={{ textAlign: "center" }}>Why Choose Laravel?</h3>
                 <span class="content_bar"></span>
                 <Row className="bxuirt">
                     <Col>
                         <div className="card_file">
                             <Row>
-                                    <span className="card_icon" className="card_icon"></span>
-                                <Col><h4>Product Design</h4>
+                                    <span className="card_icon"></span>
+                                <Col><h4>Plenty of security features</h4>
                                     <span></span>
                                 </Col>
                             </Row>
-                            <p>Ambab follows a product approach to build websites and web apps. A major reason for this is everything we do is measurable, and we have a proper deadline that guarantees quality and fractions in every minute detail in the planning phase.</p>
+                            <p>Laravel is a framework that integrates SQL injection to secure the website, protecting all data. Website security is of paramount importance. Irrespective of what you do and your business, every website stores data related to your clientele.</p>
                         </div>
                     </Col>
                     <Col>
                         <div className="card_file">
                             <Row>
                                     <span className="card_icon"></span>
-                                    <Col><h4>Product Design</h4>
+                                    <Col><h4>High-end performance</h4>
                                         <span></span>
                                     </Col>
                             </Row>
-                            <p>Ambab follows a product approach to build websites and web apps. A major reason for this is everything we do is measurable, and we have a proper deadline that guarantees quality and fractions in every minute detail in the planning phase.</p>
+                            <p>With Laravel, you will never have to be concerned about the speed of your website. With the plethora of features and out-of-box functionalities, Laravel lets you level up your business. </p>
                         </div>
                     </Col>
                     <Col>
                         <div className="card_file">
                             <Row>
                                     <span className="card_icon"></span>
-                                <Col><h4>Product Design</h4><span></span></Col>
+                                <Col><h4>Less time to market</h4><span></span></Col>
                             </Row>
-                            <p>Ambab follows a product approach to build websites and web apps. A major reason for this is everything we do is measurable, and we have a proper deadline that guarantees quality and fractions in every minute detail in the planning phase.</p>
+                         <p>With increasing popularity comes increasing competition. And in the digital world, every second matters. Before you decide to go live with your business, consider how well the developed website is alongside how fast you can launch your website.</p>
                         </div>
                     </Col>
                     <Col>
