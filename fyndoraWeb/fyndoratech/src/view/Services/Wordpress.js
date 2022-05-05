@@ -11,8 +11,7 @@ function Wordpress() {
             <TopHeaderInfo />
             <Header />
             <Container fluid>
-                <Row >
-                    <img src={process.env.PUBLIC_URL + "/Assets/services/Wordpress.jpg"} className="App-banner" alt="logo" />
+                <Row ><img src={process.env.PUBLIC_URL + "/Assets/services/php.jpg"} className="App-banner" alt="logo" />
                     <div style={{ position: "relative" }}>
                         <div className="head_wrapper">
                             <h1><span id="head_main">Wordpress DEVELOPMENT</span></h1>
@@ -151,28 +150,28 @@ function Wordpress() {
                         <Row>
                             <Col className="bx_wrapper">
                                 <img src={process.env.PUBLIC_URL + "/Assets/services/3circle.png"} alt="logo" />
-                               <div> <h4>Affordable pricing and Time Delivery</h4>
-                                <p>We understand the security of your idea and data is a big concern, so we make sure that it is well protected by our non-disclosure agreement.</p>
+                               <div> <h4>PSD to WordPress conversion</h4>
+                                <p>Our expert professionals at Fyndora help you convert all your PSD files into a high-end functioning WordPress website. We promise to provide a bug-free, fast, and responsive PSD to WordPress conversion of your website.</p>
                                 </div>
                             </Col>
                             <Col className="bx_wrapper">
                                 <img src={process.env.PUBLIC_URL + "/Assets/services/4circle.png"} alt="logo" />
-                               <div> <h4>Expert Certified Professionals</h4>
-                                <p>We understand the security of your idea and data is a big concern, so we make sure that it is well protected by our non-disclosure agreement.</p>
+                               <div> <h4>WordPress plugin development</h4>
+                                <p>We understand the importance of diverse business needs. Hence, to cater to them, we follow the best practices to integrate the plugins and provide a wide range of functionalities to your WordPress website.</p>
                                 </div>
                             </Col>
                         </Row>
                         <Row>
                             <Col className="bx_wrapper">
                                 <img src={process.env.PUBLIC_URL + "/Assets/services/5circle.png"} alt="logo" />
-                               <div> <h4>Post Delivery Support</h4>
-                                <p>We understand the security of your idea and data is a big concern, so we make sure that it is well protected by our non-disclosure agreement.</p>
+                               <div> <h4>WordPress bug fixation</h4>
+                                <p>With years of expertise in the field, Fyndora’s professionals can easily fix all the bugs associated with your WordPress website and provide you with a seamless and glitch-free experience. Our team constantly works on testing the functionality and quality of your WordPress website to ensure its optimum performance.</p>
                                 </div>
                             </Col>
                             <Col className="bx_wrapper">
                                 <img src={process.env.PUBLIC_URL + "/Assets/services/6circle.png"} alt="logo" />
-                               <div> <h4>Continues Engagements</h4>
-                                <p>We understand the security of your idea and data is a big concern, so we make sure that it is well protected by our non-disclosure agreement.</p>
+                               <div> <h4>WordPress migration</h4>
+                                <p>Technically, WordPress migration sounds very complex. However, you don’t need to worry about that. Our IT experts can easily switch your website host without losing any of your website data. We carry on the entire migration process smoothly and seamlessly.</p>
                                 </div>
                             </Col>
                         </Row>
