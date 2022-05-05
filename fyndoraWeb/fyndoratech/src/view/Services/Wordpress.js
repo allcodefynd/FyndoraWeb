@@ -16,7 +16,7 @@ function Wordpress() {
                     <div style={{ position: "relative" }}>
                         <div className="head_wrapper">
                             <h1><span id="head_main">Wordpress DEVELOPMENT</span></h1>
-                            <p><span id="head_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</span></p>
+                            <p><span id="head_para">If you are looking to create a feature-rich website for your business or personal needs, WordPress is ideal. WordPress is a platform that caters to all these needs and provides the most reliable WordPress services. It is one of the world’s best, most popular content management systems used by more than 43.3% of website owners across the globe.</span></p>
                             <button className="allBtnwrapper">GET IN TOUCH</button>
                         </div>
                     </div>
@@ -27,52 +27,52 @@ function Wordpress() {
                     <div style={{ textAlign: "center", marginTop: "40px", marginBottom: "40px" }}>
                         <h3>WordPress Development</h3>
                         <span class="content_bar"></span>
-                        <p>We undertake services that cater to commercial purpose to personal requirements. Our WordPress development team fulfills the needs of our customers with reflective and efficient website designs. In today's modern time, WordPress is a boosting factor in the digital world. Emstell is one of the leading WordPress development companies that strive to offer websites that are compatible with serving various needs of the business. Professionals from Emstell are dedicated to offering services of WordPress development and designing services.</p>
+                        <p>However, creating a perfect WordPress website by yourself may sound complicated and time-consuming. At such times, a WordPress service provider comes into the picture. If you want everything to be perfect, you can outsource creating and developing your WordPress website to such a company. Fyndora is one of the leading WordPress service provider companies. It is a one-stop destination for all your WordPress website needs.</p>
                     </div>
                 </Row>
             </Container>
             <Container>
-                <h3 style={{ textAlign: "center" }}>WHY CHOOSE AMBAB FOR MAGENTO DEVELOPMENT</h3>
+                <h3 style={{ textAlign: "center" }}>Why should you choose us for WordPress services?</h3>
                 <span class="content_bar"></span>
                 <Row className="bxuirt">
                     <Col>
                         <div className="card_file">
                             <Row>
-                                    <span className="card_icon" className="card_icon"></span>
-                                <Col><h4>Product Design</h4>
+                                    <span className="card_icon"></span>
+                                <Col><h4>Outstanding results</h4>
                                     <span></span>
                                 </Col>
                             </Row>
-                            <p>Ambab follows a product approach to build websites and web apps. A major reason for this is everything we do is measurable, and we have a proper deadline that guarantees quality and fractions in every minute detail in the planning phase.</p>
+                            <p>As one of the leading, reliable IT service and consultation provider companies, Fyndora guarantees quality services to all its clients. Our team ensures to build the finest solutions for all our clients.</p>
                         </div>
                     </Col>
                     <Col>
                         <div className="card_file">
                             <Row>
                                     <span className="card_icon"></span>
-                                    <Col><h4>Product Design</h4>
+                                    <Col><h4>Clean and functional websites</h4>
                                         <span></span>
                                     </Col>
                             </Row>
-                            <p>Ambab follows a product approach to build websites and web apps. A major reason for this is everything we do is measurable, and we have a proper deadline that guarantees quality and fractions in every minute detail in the planning phase.</p>
+                            <p>At Fyndora, we provide quality maintenance and support services and try to fix all the problems associated with the website to ensure a clean and bug-free functionality of the website. </p>
                         </div>
                     </Col>
                     <Col>
                         <div className="card_file">
                             <Row>
                                     <span className="card_icon"></span>
-                                <Col><h4>Product Design</h4><span></span></Col>
+                                <Col><h4>Low-maintenance</h4><span></span></Col>
                             </Row>
-                            <p>Ambab follows a product approach to build websites and web apps. A major reason for this is everything we do is measurable, and we have a proper deadline that guarantees quality and fractions in every minute detail in the planning phase.</p>
+                            <p>Our team tries to focus more on fixing the bugs, removing hardcoded gaps, and unethical customization. Hence, it results in a fast functioning and easy-to-maintain WordPress website. As a result, the overall maintenance cost reduces.</p>
                         </div>
                     </Col>
                     <Col>
                         <div className="card_file">
                             <Row>
                                     <span className="card_icon"></span>
-                                <Col><h4>Product Design</h4><span></span></Col>
+                                <Col><h4>SEO-friendly websites</h4><span></span></Col>
                             </Row>
-                            <p>Ambab follows a product approach to build websites and web apps. A major reason for this is everything we do is measurable, and we have a proper deadline that guarantees quality and fractions in every minute detail in the planning phase.</p>
+                            <p>To ensure the best of our client’s satisfaction, our professionals work with all the innovative tools and techniques such as SSL certificates, Google analytics, SEO plugin, etc. We try to perform the necessary optimization to make your website SEO-friendly. </p>
                         </div>
                     </Col>
                 </Row>
@@ -81,36 +81,36 @@ function Wordpress() {
                         <div className="card_file">
                             <Row>
                                     <span className="card_icon"></span>
-                                <Col><h4>Product Design</h4><span></span></Col>
+                                <Col><h4>Proven methods</h4><span></span></Col>
                             </Row>
-                            <p>Ambab follows a product approach to build websites and web apps. A major reason for this is everything we do is measurable, and we have a proper deadline that guarantees quality and fractions in every minute detail in the planning phase.</p>
+                            <p>At Fyndora, we provide a wide range of IT and consulting services, including WordPress development. Over all these years, we have developed different methodologies that are very successful in the field.</p>
                         </div>
                     </Col>
                     <Col>
                         <div className="card_file">
                             <Row>
                                     <span className="card_icon"></span>
-                                <Col><h4>Product Design</h4><span></span></Col>
+                                <Col><h4>Best quality</h4><span></span></Col>
                             </Row>
-                            <p>Ambab follows a product approach to build websites and web apps. A major reason for this is everything we do is measurable, and we have a proper deadline that guarantees quality and fractions in every minute detail in the planning phase.</p>
+                            <p>At Fyndora, we have highly qualified and experienced IT experts. Hence, undoubtedly you will get the best quality services on our platform. We also conduct regular training for our professionals to keep them updated on all the latest changes. </p>
                         </div>
                     </Col>
                     <Col>
                         <div className="card_file">
                             <Row>
                                     <span className="card_icon"></span>
-                                <Col><h4>Product Design</h4><span></span></Col>
+                                <Col><h4>Affordable</h4><span></span></Col>
                             </Row>
-                            <p>Ambab follows a product approach to build websites and web apps. A major reason for this is everything we do is measurable, and we have a proper deadline that guarantees quality and fractions in every minute detail in the planning phase.</p>
+                            <p>Outsourcing all your WordPress services to one firm can help you cut operational costs and reduce the risk of data breaches or the threat of cybercrime. Not only that, you get all your work done successfully irrespective of the deadlines.</p>
                         </div>
                     </Col>
                     <Col>
                         <div className="card_file">
                             <Row>
                                     <span className="card_icon"></span>
-                                <Col><h4>Product Design</h4><span></span></Col>
+                                <Col><h4>Flexible</h4><span></span></Col>
                             </Row>
-                            <p>Ambab follows a product approach to build websites and web apps. A major reason for this is everything we do is measurable, and we have a proper deadline that guarantees quality and fractions in every minute detail in the planning phase.</p>
+                            <p>You can reach us at any time. Our team provides you with work flexibility by providing all our services 24/7. Not only that, outsourcing your WordPress services will help you to reach your business goals and adapt to the changes swiftly. </p>
                         </div>
                     </Col>
                 </Row>
@@ -122,8 +122,8 @@ function Wordpress() {
                     </Col>
                     <Col>
                         <div className="tex_word_wp">
-                            <h2>What is Lorem Ipsum?</h2>
-                            <p>Ambab follows a product approach to build websites and web apps. A major reason for this is everything we do is measurable, and we have a proper deadline that guarantees quality and fractions in every minute detail in the planning phase.  A major reason for this is everything we do is measurable, and we have a proper deadline that guarantees quality and fractions in every minute detail in the planning phase. A major reason for this is everything we do is measurable, and we have a proper deadline that guarantees quality and fractions in every minute detail in the planning phase.</p>
+                            <h2>Get your WordPress development services today!</h2>
+                            <p>At Fyndora, we offer several professional WordPress development services. We try to focus on every problem individually and understand the project’s complexities. Our professional teams work very hard to deliver our clients highly optimised and SEO-smart WordPress services before the given deadlines. Our team is dedicated to providing you with a seamless and glitch-free WordPress website at a highly affordable price. So, what are you waiting for? Choose Fyndora as your WordPress development company. </p>
                         </div>
                     </Col>
                 </Row>
@@ -132,19 +132,19 @@ function Wordpress() {
                     <Container>
                         <Row style={{marginTop:"40px"}}>
                             <Col className="bx_wrapper"><h2>Why we are an ideal choice for you?</h2></Col>
-                            <Col className="bx_wrapper"><h5>Agile. Transparent. Collaborative. Time Tested. Our approach in product development helps you make the right choice for your users. Agile. Transparent. Collaborative. Time Tested. Our approach in product development</h5></Col>
+                            <Col className="bx_wrapper"><h5>At Fyndora, you get the solutions to all your WordPress related problems, such as</h5></Col>
                         </Row>
                         <Row>
                             <Col className="bx_wrapper">
                                 <img src={process.env.PUBLIC_URL + "/Assets/services/1circle.png"} alt="logo" />
-                               <div><h4>10+ years Market Experience</h4>
-                                <p>We understand the security of your idea and data is a big concern, so we make sure that it is well protected by our non-disclosure agreement.</p>
+                               <div><h4>Customised WordPress development</h4>
+                                <p>Our expert professionals help you create and develop a customised WordPress website based on your needs and preferences at a very affordable cost. We help you in extending your website’s capabilities using API integrations. </p>
                                 </div>
                             </Col>
                             <Col className="bx_wrapper">
                                 <img src={process.env.PUBLIC_URL + "/Assets/services/2circle.png"} alt="logo" />
-                               <div> <h4>100% Transparency and Quality</h4>
-                                <p>We understand the security of your idea and data is a big concern, so we make sure that it is well protected by our non-disclosure agreement.</p>
+                               <div> <h4>WordPress design solutions</h4>
+                                <p>At Fyndora, we provide you with your WordPress website's best functionality and appearance. We help our clients in developing scalable and engaging themes in innovative ways.</p>
                                 </div>
                             </Col>
                         </Row>
