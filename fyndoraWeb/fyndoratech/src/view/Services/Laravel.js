@@ -12,7 +12,7 @@ function Laravel() {
             <Header />
             <Container fluid>
                 <Row >
-                    <img src={process.env.PUBLIC_URL + "/Assets/services/laravel.jpg"} className="App-banner" alt="logo" />
+                    <img src={process.env.PUBLIC_URL + "/Assets/services/Laravel.jpg"} className="App-banner" alt="logo" />
                     <div style={{ position: "relative" }}>
                         <div className="head_wrapper">
                             <h1><span id="head_main">LARAVEL DEVELOPMENT</span></h1>

@@ -11,8 +11,8 @@ function GraphicDesign() {
             <TopHeaderInfo />
             <Header />
             <Container fluid>
-                <Row >
-                    <img src={process.env.PUBLIC_URL + "/Assets/services/GraphicDesign.jpg"} className="App-banner" alt="logo" />
+                <Row >                
+                    <img src={process.env.PUBLIC_URL + "/Assets/services/graphicdesign.jpg"} className="App-banner" alt="logo" />
                     <div style={{ position: "relative" }}>
                         <div className="head_wrapper">
                             <h1><span id="head_main">GraphicDesign DEVELOPMENT</span></h1>

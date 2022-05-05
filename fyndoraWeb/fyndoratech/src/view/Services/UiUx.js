@@ -12,7 +12,7 @@ function UiUx() {
             <Header />
             <Container fluid>
                 <Row >
-                    <img src={process.env.PUBLIC_URL + "/Assets/services/UiUx.jpg"} className="App-banner" alt="logo" />
+                    <img src={process.env.PUBLIC_URL + "/Assets/services/uiux.jpg"} className="App-banner" alt="logo" />
                     <div style={{ position: "relative" }}>
                         <div className="head_wrapper">
                             <h1><span id="head_main">UiUx DEVELOPMENT</span></h1>
