@@ -11,7 +11,7 @@ function Wordpress() {
             <TopHeaderInfo />
             <Header />
             <Container fluid>
-                <Row ><img src={process.env.PUBLIC_URL + "/Assets/services/php.jpg"} className="App-banner" alt="logo" />
+                <Row ><img src={process.env.PUBLIC_URL + "/Assets/services/wordpress.jpg"} className="App-banner" alt="logo" />
                     <div style={{ position: "relative" }}>
                         <div className="head_wrapper">
                             <h1><span id="head_main">Wordpress DEVELOPMENT</span></h1>
